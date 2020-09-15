@@ -3,6 +3,7 @@
 Contact:
 >*telegram:* @jekostud  
 >*email:*    tillerman9@gmail.com  
+>*instagram:* [Voodo](https://www.instagram.com/jekostud/)  
 >*phone:*    +375257572208  
 >*city:*     Mogilev
 
