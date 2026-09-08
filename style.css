@@ -1,0 +1,225 @@
+    html,
+    body {
+        background: #181818;
+        font-family: 'Lato', helvetica, arial, sans-serif;
+        font-size: 16px;
+        color: #222;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    .container {
+        margin: 30px auto;
+        width: 90%;
+        max-width: 800px;
+        background: #D5D8DC;
+        border-radius: 15px;
+    }
+    
+    .maindetails {
+        display: flex;
+        padding: 30px 40px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    /* .avatar {
+    width: 40%;
+} */
+    
+    .headshot {
+        width: 250px;
+        border-radius: 15%;
+    }
+    
+    .name h1 {
+        font-size: 40px;
+        font-weight: 700;
+        font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    }
+    
+    .name h2 {
+        font-size: 30px;
+        font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    }
+    
+    .main {
+        padding: 10px 40px;
+        display: flex;
+        justify-content: center;
+        border-top: 3px solid #dedede;
+        gap: 5px;
+    }
+    
+    .sectionTitle {
+        display: flex;
+        float: left;
+        width: 25%;
+        color: #868ac9;
+        font-size: 15px;
+    }
+    
+    .titleSec {
+        display: flex;
+        align-items: center;
+    }
+    
+    .sectionContent {
+        float: right;
+        width: 72.5%;
+        display: block;
+    }
+    
+    .keySkills {
+        column-count: 3;
+        margin-bottom: 20px;
+    }
+    
+    .subDetails {
+        font-size: 13px;
+        font-style: italic;
+        margin-bottom: 5px;
+    }
+    
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border-top: 3px solid #dedede;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .mysia {
+        text-align: center;
+        padding-top: 25px;
+    }
+    
+    .rsImg {
+        width: 70px;
+        padding-top: 5px;
+    }
+    
+    .code {
+        white-space: pre-wrap;
+        overflow-wrap: break-word;
+        word-break: break-all;
+    }
+    
+    @media (max-width: 980px) {
+        .maindetails {
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+        }
+        /*     .sectionTitle {
+        width: auto;
+    } */
+        .keySkills {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            gap: 20px;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .main {
+            flex-direction: column;
+            align-items: center;
+        }
+        .sectionContent {
+            width: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .sectionTitle {
+            width: auto;
+        }
+        h2 {
+            text-align: center;
+        }
+    }
+    
+    a {
+        color: #181818;
+        cursor: pointer;
+    }
+    
+    a:hover {
+        color: #ff0000;
+        transition-duration: 0.5s;
+    }
+    /*  CAROUSEL */
+    
+    .carousel-container {
+        position: relative;
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    
+    .carousel-track-wrapper {
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    .carousel-track {
+        display: flex;
+        transition: transform 0.8s ease-in-out;
+    }
+    
+    .carousel-slide {
+        min-width: 100%;
+        box-sizing: border-box;
+        padding: 40px;
+        text-align: center;
+        background-color: #f0f0f0;
+    }
+    
+    .carousel-btn {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 10px 15px;
+        position: absolute;
+        z-index: 10;
+    }
+    
+    .carousel-btn.prev {
+        left: 10px;
+    }
+    
+    .carousel-btn.next {
+        right: 10px;
+    }
+    /*  CAROUSEL */
+    
+    .myProjects {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        color: #868ac9;
+        font-size: 25px;
+    }
+    
+    .project {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .ulNav {
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        padding: 30px 40px;
+        list-style-type: none;
+    }
