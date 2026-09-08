@@ -17,4 +17,4 @@ I study programming on my own, my first serious platform for learning is RSschoo
 *Russian  
 *Belarussian  
 *English
-##### Ready to learn 27/7 because it's interestin.
+##### Ready to learn 27/7 because it's interesting.
