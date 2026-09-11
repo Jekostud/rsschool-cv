@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CY-CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link type="image/png" rel="icon" href="./user.png">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header class="navContainer">
+            <nav class="navigation">
+                <ul class="ulNav">
+                    <li><a href="#aboutme">About me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#kata">Kata</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+        <header class="maindetails">
+            <div class="avatar">
+                <img class="headshot" src="headshot.jpg" alt="Chekalkin Yauheni">
+            </div>
+            <div class="name">
+                <h1>CHEKALKIN YAUHENI</h1>
+                <h2>My Curriculum vitae</h2>
+            </div>
+        </header>
+        <main>
+            <div class="main">
+                <div class="sectionTitle">
+                    <h2 class="titleSec" id="aboutme">About me</h2>
+                </div>
+                <div class="sectionContent">
+                    <p>My goal is to become a programmer. I have a lot of free time to devote myself to learning programming. I value time, so I want to make the most of it. I have passed HTML Basics, CSS Basics, JS Basics. There are many interesting things
+                        ahead!
+                    </p>
+                </div>
+            </div>
+            <div class="main">
+                <div class="sectionTitle">
+                    <h2 class="titleSec">Work Expierence</h2>
+                </div>
+                <div class="sectionContent">
+                    <h2>Reservation and Ticketing Specialist</h2>
+                    <p class="subDetails">October 2014 - Present</p>
+                    <p>I have been working in tourism for more than five years, have visited different countries, communicated with many people. I work with Aeroflot, Turkish Airlines, Belavia, Lot, Lufthansa, Austrian, S7, Ukraine Airlines, Etihad and another.
+                        Tickets are issued in special programs, such as Sirena, Troya, Amadeus.</p>
+                </div>
+            </div>
+            <div class="main">
+                <div class="sectionTitle">
+                    <h2 class="titleSec">My main skills</h2>
+                </div>
+                <nav class="sectionContent">
+                    <ul class="keySkills">
+                        <li>stress resistance</li>
+                        <li>multitasking</li>
+                        <li>hardworker</li>
+                        <li>sociability</li>
+                        <li>accuracy</li>
+                        <li>teamwork</li>
+                        <li>coffee lover</li>
+                        <li>friendly</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="main">
+                <div class="sectionTitle">
+                    <h2 class="titleSec">Prof skills</h2>
+                </div>
+                <div class="sectionContent">
+                    <ul class="keySkills">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Figma</li>
+                        <li>Photoshop</li>
+                        <li>Git/Github</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project">
+                <h2 class="myProjects" id="projects">My projects</h2>
+                <!-- CAROUSEL -->
+                <div class="carousel-container">
+                    <button class="carousel-btn prev" type="button">&#10094;</button>
+                    <div class="carousel-track-wrapper">
+                        <div class="carousel-track">
+                            <div class="carousel-slide">Pets</div>
+                            <div class="carousel-slide">Portfolio</div>
+                            <div class="carousel-slide">Christmas shop</div>
+                        </div>
+                    </div>
+                    <button class="carousel-btn next" type="button">&#10095;</button>
+                </div>
+                <!-- CAROUSEL -->
+            </div>
+            <div class="main">
+                <div class="sectionTitle">
+                    <h2 class="titleSec">My Expierence</h2>
+                </div>
+                <div class="sectionContent">
+                    <a href="https://www.codewars.com/users/Jekostud" target="_blank">
+                        <img src="https://www.codewars.com/users/Jekostud/badges/large" alt="mykata"></a>
+                    <p>Code exemple</p>
+                    <pre><code class="code">let isAnagram = function(test, original) {
+    let a = test.toLowerCase().split('').sort().join('');
+    let b = original.toLowerCase().split('').sort().join('');
+    return (a==b)?true:false;
+};</code></pre>
+                </div>
+            </div>
+            <div class="main">
+                <div class="sectionTitle">
+                    <h2 class="titleSec">Education</h2>
+                </div>
+                <div class="sectionContent">
+                    <article>
+                        <h2>University</h2>
+                        <p>I graduated from the European Humanities University, Bachelor of Tourism and Recreation in 2014.
+                        </p>
+                        <h2>English</h2>
+                        <p>A2</p>
+                    </article>
+                </div>
+            </div>
+            <div class="main">
+                <div class="sectionTitle">
+                    <h2 class="titleSec" id="contacts">Contact me</h2>
+                </div>
+                <div class="sectionContent">
+                    <ul>
+                        <li>email:<a href="mailto:tillerman9@gmail.com">tillerman9@gmail.com</a></li>
+                        <li>phone: <a href="tel:+375257572208">+375257572208</a></li>
+                        <li>telegram: <a href="https://www.instagram.com/jekostud/" target="_blank">Jekostud</a></li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <nav class="footer">
+                <p class="mysia"><a href="https://github.com/Jekostud" target="_blank">My GitHub</a></p>
+                <a href="https://rs.school/courses/javascript-preschool-ru" target="_blank">
+                    <img class="rsImg" src="https://rs.school/_next/static/media/rss-logo.c19ce1b4.svg" alt="logo">
+                </a>
+                <p class="mysia">2026</p>
+            </nav>
+        </footer>
+    </div>
+</body>
+</html>
